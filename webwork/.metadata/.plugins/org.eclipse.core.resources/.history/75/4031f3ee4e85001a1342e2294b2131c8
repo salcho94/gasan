@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+<table border ='1'>
+<tr><th colspan = 2 >부서명</th><th>전화번호(02+)</th><th>팩스번호(02+)</th></tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+<tr><td></td><td></td><td></td><td></td> </tr>
+
+
+
+</table>
+
+
+
+</body>
+</html>

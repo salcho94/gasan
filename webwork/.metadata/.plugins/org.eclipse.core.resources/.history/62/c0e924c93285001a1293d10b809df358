@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_html5_simpleform.html</title>
+</head>
+<body>
+
+<form action = '' method ='post' >
+<fieldset>
+	<legend>회원가입</legend>
+	<ol>
+		<li>
+		<label for='name'> NAME </label><input id ='name' name = 'NAME' type='text'/>
+		</li>
+		
+	
+		<li><label for='GENDER'> GENDER </label>
+		<input type='radio' id ='gender' name ='gender'value='men' checked >men
+		<input type='radio' id ='gender' name ='gender'value='women'>women
+		</li>
+		
+		<li><label for='job'> job </label>
+		<select name='job'name ='job1'>
+    	<option ID='job' value=""selected="selected">직업선택</option>
+    	<option ID='job1' value="학생">학생</option>
+    	<option ID='job2' value="회사원" >회사원</option>
+   		<option ID='job3' value="프로그래머">프로그래머</option>
+     	</select>
+		</li>
+		
+		
+		<li><label for='hobby'> hobby </label>
+		<input type='checkbox'id = 'hobby' name ='hobby' value='sleep' checked >sleep
+		<input type='checkbox'id = 'hobby'  name ='hobby' value='eat' checked >eat
+		<input type='checkbox'id = 'hobby'  name ='hobby' value='breathing' checked >breathing
+		<input type='checkbox'id = 'hobby'  name ='hobby' value='be stupid'checked>be stupid
+		</li>
+		
+		
+		<li><label for='couple'> COUPLE </label>
+		<input type='radio' id = 'couple' name ='couple'value='yes' checked >yes
+		<input type='radio' id = 'couple' name ='couple'value='no'  >no
+		</li>
+		<!-- 웹과앱 -->
+		<li>
+		<label for=''> 여행하고싶은 나라?</label><input type='text' list = 'countries'>
+		<datalist id='countries'>
+			<option>미국</option>
+			<option>스페인</option>
+			<option>양천구 용선이네</option>
+		
+		</datalist>
+		</li>
+	    <li>
+		<input type = 'submit'	value ='SEND'/>
+		<input type = 'reset'	value ='CANCLE'/>	
+		</li>
+		
+		
+		
+		
+		
+	</ol>
+</fieldset>
+</form>
+
+
+
+
+</body>
+</html>

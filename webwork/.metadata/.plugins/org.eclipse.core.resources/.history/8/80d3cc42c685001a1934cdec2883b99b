@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>07_iframe.html</title>
+</head>
+<body>
+
+
+<a href = 'http://www.nate.com' target =_blank>네이트</a>
+<a href = 'http://www.korea.com'>네이트</a>
+
+
+
+<hr/>
+<iframe src = 'http://www.ikosmo.co.kr' name ='leftframe' width ='500' height ='500'></iframe>
+<iframe src = 'http://www.aladin.co.kr' name ='rightframe' width ='500' height ='500'></iframe>
+</body>
+</html>

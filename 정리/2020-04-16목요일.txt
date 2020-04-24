@@ -1,0 +1,15 @@
+수업 
+JDBC
+-!!!   commit 필수  !!!
+물음표가있으면 pre 
+insert delelt update - 익스큐트 업데이트
+select - 익스큐트 쿼리
+티랜잭션의 처리 
+비디오샵의 회원관리 (CRUD)
+JFree chart  사용해서 그래프를 그리기 
+
+
+
+사용자 요구사항
+화면설계서 ppt , balsamiq, 그림판
+db 설계 ERD

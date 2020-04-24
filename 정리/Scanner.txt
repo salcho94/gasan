@@ -1,0 +1,38 @@
+Exception이 발생한 이유는 next()와 nextLine()의 차이
+next() : 문자 또는 문자열을 공백을 기준으로 한단어 도는 한문자만 가져온다.
+nextLine() : 공백, 엔터값 상관없이 한줄을 그대로 가져온다 
+
+class A{
+	1. int A;변수
+ 
+	2. A(){}생성자함수
+
+	3. void A(){}
+}
+interface B {//100 프로 추상인 것을 interface로 보면된다 99% 맞는 말 
+
+[poublic static final] int B;
+[publlic abstract] 자동으로 생성! void B();
+
+}
+-추상 메소드만 있음
+-생성자X = 객체생성 불가능 합니다.
+
+
+
+
+
+       *modifier*
+
+1.defult, public, abstract,final 클래스 앞
+2.private, defult, protected, public, static, final 변수 앞 
+3.private, defult, protected, public 생성자함수 앞
+4.private, defult, protected, public , abstract, final, static일반 함수 앞
+ 
+
+상속시 
+-클래스 상속 : extends
+-인터페이스(상속):implements
+-java는 무조껀 부모가 하나여야만 가능 
+-interface는 다중 상속 가능 !
+-

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>08_sub.html</title>
+</head>
+<body>
+<a href ='http://www.korea.com'>korea</a>
+<a href ='http://www.korea.com' target='rightFrm'>korea</a>
+</body>
+</html>

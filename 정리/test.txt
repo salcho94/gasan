@@ -1,0 +1,69 @@
+1. Zlotkey와 동일한 부서에 속한 모든 사원의 이름과 입사일을 표시하는 질의를 작성하십시오.
+   Zlotkey는 제외하십시오.
+select DEPARTMENT_ID from EMPLOYEES where LAST_NAME = 'Zlotkey'
+
+select  LAST_NAME ,  HIRE_DATE
+from EMPLOYEES
+where DEPARTMENT_ID =(DEPARTMENT_ID from EMPLOYEES where LAST_NAME = 'Zlotkey') AND LAST_NAME 1='Zlotkey';
+
+2. 급여가 평균 급여보다 많은 모든 사원의 사원 번호와 이름을 표시하는 질의를 작성하고
+   결과를 급여에 대해 오름차순으로 정렬하십시오.
+SELECT AVG(SALARY)
+FROM EMPLOYEES
+
+SELECT EMPLOYEE_ID, FIRST_NAME || LAST_NAME
+FROM EMPLOYEES
+WHERE SALARY>(SELECT AVG(SALARY)
+FROM EMPLOYEES)
+ORDER BY SALARY;
+
+
+
+3. 이름에 u가 포함된 사원과 같은 부서에서 일하는 모든 사원의 사원 번호와 이름을 표시하는
+   질의를 작성하십시오.
+SELECT FIRST_NAME || LAST_NAME
+FROM EMPLOYEES
+WHERE LOWER(FIRST_NAME || LAST_NAME) LIKE '%U%'
+
+SELECT DEPARTMENT_ID, FIRST_NAME || LAST_NAME
+FROM EMPLOYEES
+WHERE DEPARTMENT_ID = ANY(SELECT FIRST_NAME || LAST_NAME
+FROM EMPLOYEES
+WHERE LOWER(FIRST_NAME || LAST_NAME) LIKE '%U%'
+);
+
+
+
+4. 부서 위치 ID가 1700인 모든 사원의 이름, 부서 번호 및 업무 ID를 표시하십시오.
+select e.FIRST_NAME || LAST_NAME,d. DEPARTMENT_ID e.JOB_ID
+from DEPARTMENTS d, EMPLOYEES e
+where e.DEPARTMENT_ID = d.DEPARTMENT_ID and d.LOCATION_ID =1700;
+
+
+5. King에게 보고하는 모든 사원의 이름과 급여를 표시하십시오.
+SELECT FIRST_NAME || LAST_NAME ,SALARY
+FROM  EMPLOYEES
+WHERE EMPLOYEE_ID IN (
+SELECT EMPLOYEE_ID
+FROM EMPLOYEES
+WHERE LAST_NAME ='KING');
+
+
+
+SELECT EMPLOYEE_ID
+FROM EMPLOYEES
+WHERE LAST_NAME ='KING'
+
+6. Executive 부서의 모든 사원에 대한 부서 번호, 이름 및 업무 ID를 표시하십시오.
+select *
+from EMPLOYEES
+where DEPARTMENT_NAME = 'Executive';
+
+
+7. 평균 급여보다 많은 급여를 받고 이름에 u가 포함된 사원과 같은 부서에서 근무하는
+   모든 사원의 사원 번호, 이름 및 급여를 표시하는 질의를 작성하십시오.
+
+select EMPLOYEE_ID,FIRST_NAME || LAST_NAME,SALARY
+from EMPLOYEES
+where SALARY<(select avg(salary) fromEMPLOYEES) 
+in DEPARTMENT_ID(select DEPARTMENT_ID from EMPLOYEES where lower(FIRST_NAME || LAST_NAME) like %u%;

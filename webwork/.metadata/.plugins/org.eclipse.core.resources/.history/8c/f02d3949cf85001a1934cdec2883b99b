@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> 연습</title>
+<style type="text/css">
+/*1. 가중치에따른 우선순위    */
+  div#point100{color : yellow;}/*우선치 가장 높다*/
+  
+  #point100{color: red;}/*아이디로찾았을시 100점 가장높다*/	
+  .point10{color: blue;}/*값을 10 가중치 높아서 이게출력 */
+  
+  div{color:#FFaa11;}
+  div{color: red;} /*이게먼저 출력된다 덮는 방식을 추천 한다 */
+
+   body div#point100{color:gray;}/*가중치값 102점 최고봉*/	
+   
+   
+/*2. 속성값 선택    */   
+   input[type='text']{border:2px solid #555456; }
+   /*input첫요소 변경
+     input첫요소 마지막요소변경
+     input첫요소 다섯번째변경 
+     input첫요소 뒤에서 두번째요소변경   */
+ 	input:first-of-type{border:2px solid red;}
+ 	input:last-of-type{border:2px solid black;}
+   input:nth-child(5){border:2px solid blue;}
+   input:nth-last-child(2){border:2px solid yellow;}
+     
+</style>
+
+
+
+</head>
+
+<body>
+	
+	<div id="point100" class="point10">안녕하세요</div>
+	
+	
+	<p>
+		<input type="text" value="입력1">
+		<input type="checkbox"> 선택
+		<input type="radio" name="rd"  checked="checked"> 예
+		<input type="radio" name="rd"> 아니오
+		<input type="text" value="입력2" disabled="disabled">		
+		<input type="button" value="확인">
+		<input type="button" value="취소">
+	</p>
+	
+	
+</body>
+</html>

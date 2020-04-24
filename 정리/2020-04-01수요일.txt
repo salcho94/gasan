@@ -1,0 +1,16 @@
+
+
+1. GUI
+2. 오라클 설치 
+3. 조별과제 
+   
+   1 . 주제 정하기 (어느가게)
+   2 . 어떤 방식
+   3. . 화면구성 - 종이에 만들기
+   4 . 클래스 구조 시작  		
+
+	-pair programming
+	-avata
+	-copy progamming
+	-Team Viewer / Slack 사용
+	-

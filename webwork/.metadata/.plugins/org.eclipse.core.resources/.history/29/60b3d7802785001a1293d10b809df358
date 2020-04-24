@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> table make </title>
+</head>
+<body>
+<table border='1'>
+<tr><th>이름</th><th>부서</th><tr>
+<tr><td colspan='2'>가나</td></tr>
+<tr><td>A</td><td>B</td></tr>
+<tr><td>ㄱ</td><td>ㄴ</td></tr>
+</table>
+</body>
+</html>

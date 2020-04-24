@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>07_iframe.html</title>
+</head>
+<body>
+
+
+
+
+
+
+<hr/>
+<iframe src = 'http://www.ikosmo.co.kr' name ='leftframe' width ='500' height ='500'></iframe>
+<iframe src = 'http://www.naver.com' name ='rightframe' width ='500' height ='500'></iframe>
+</body>
+</html>

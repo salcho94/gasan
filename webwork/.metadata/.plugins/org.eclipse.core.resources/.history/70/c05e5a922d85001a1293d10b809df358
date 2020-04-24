@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_html5_simpleform.html</title>
+</head>
+<body>
+
+<form>
+<fieldset>
+	<legend>회원가입</legend>
+	<ol>
+		<li>
+		<label for='name'> 이름 </label><input id ='name' type='text'/>
+		
+		</li>
+	</ol>
+</fieldset>
+</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+오늘의 목표
+ GUI(화면) + JDBC  + DB
+
+	VideoShop(목요일)
+	
+	exercise 조별로 진행 
+
+
+	sq  

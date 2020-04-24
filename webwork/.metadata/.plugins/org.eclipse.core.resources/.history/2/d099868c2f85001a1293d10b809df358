@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_html5_simpleform.html</title>
+</head>
+<body>
+
+<form action = ''>
+<fieldset>
+	<legend>회원가입</legend>
+	<ol>
+		<li>
+		<label for='name'> NAME </label><input id ='name' name = 'NAME' type='text'/>
+		</li>
+		
+		<li>
+		<input type = 'submit'	value ='SEND'/>
+		<input type = 'reset'	value ='CANCLE'/>	
+		</li>
+		<li><label for='name'> GENDER </label>
+		<input type='radio' name ='gender'value='men' checked >men
+		<input type='radio' name ='gender'value='women'>women
+		</li>
+		
+		<li><label for='name'> COUPLE </label>
+		<input type='radio' name ='couple'value='yes' checked >yes
+		<input type='radio' name ='couple'value='no'  >no
+		</li>
+	</ol>
+</fieldset>
+</form>
+
+
+
+
+</body>
+</html>

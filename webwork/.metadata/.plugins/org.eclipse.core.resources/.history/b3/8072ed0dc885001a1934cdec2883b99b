@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<iframe src ='08_sub.html' name ='leftframe' width ='777'height ='777'></iframe>
+<iframe src ='08_sub.html' name ='rightframe' width ='777'height ='777'></iframe>
+
+
+
+
+</body>
+</html>

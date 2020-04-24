@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>06_html5_simpleform.html</title>
+</head>
+<body>
+
+<form>
+<fieldset>
+	<legend>회원가입</legend>
+
+
+
+
+
+</fieldset>
+</form>
+
+
+
+
+</body>
+</html>

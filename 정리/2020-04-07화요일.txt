@@ -1,0 +1,20 @@
+SQL
+    -DDL
+	CREATE TABLE table_name( [컬럼명 자료형 ] )생성
+	DROP  TABLE 테이블명 던지는거 삭제
+	ALTER구조 TABLE 테이블명ADD / MODIFY/ DROP 추가/ 변경 /삭제	
+    -DML
+	INTSERT삽입into table_name (컬럼명)values(값)
+	SELECT선택FROM table_name where 조건
+
+	UPDATE수정SET table_name =변경사항 where 조건
+	DELETE삭제FROM table_name where 조건	
+	COMMIT/ROLLBACK
+	TRUNCATE   롤백이 불가능함	완전 메모리 삭제
+    -DCL
+	GRANT
+	REVOKE
+	
+
+	chap2
+	chap4

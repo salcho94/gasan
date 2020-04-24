@@ -1,0 +1,27 @@
+SQL 데이타베이스를 사용하는 언어
+
+학점관리
+학번 id		char(10)
+이름 name	vaechar2(10)
+국어점수 kor	number(3) 3자리수 100점 의 자릿수 -999~999
+영어점수 eng 	number(3)
+총점 total		number(3)
+평균 avg		number(5,2)자릿수 5개중 2개는 소숫점으로 사용	
+
+
+----------------------------------------------------------------
+테이블명 :info_tab
+이름	name	varchar2(10) NOT NULL
+아이디  	jumin	char2(14)	UQ
+전화	tell	varchar2(20)PK
+성별 	gender	varchar2(4)CK(남,여)(기본값 = 남자)
+나이 	age 	number(3)-자릿수지정안하면 10개지정
+출신지 	home	varchar(20)
+
+오늘의 숙제 
+1. 교재8,9,10 챕터 공부하기
+
+
+
+
+
